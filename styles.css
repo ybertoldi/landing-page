@@ -1,0 +1,50 @@
+body{
+    font-family: "Monaco", monospace;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header{
+    background: rgb(37, 35, 49);
+    flex: 0.2;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 4px;
+
+    color: white
+}
+
+.starting-container{
+    flex: 4;
+    background: white;
+}
+
+.info-container{
+    flex: 4;
+    background-color: white;
+}
+
+.quote{
+    flex: 4;
+    background: gray;
+
+}
+
+.action{
+    flex: 4;
+}
+
+.footer{
+    flex: 0.5;
+    background: rgb(37, 35, 49);
+}
+
