@@ -1,3 +1,4 @@
+/* General ajdustments */
 body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -11,15 +12,41 @@ a, li{
     text-decoration: none;
 }
 
-.container-1{
-    background: #393e46;
-    height: 50px
-    outline: 2px solid red;
+.centered{
+    width: 70%;
 }
 
+.container-1{
+    background: #393e46;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.header-links *{
+    color: rgb(218, 218, 218);
+    margin-left: 8px;
+}
+
+
+
+/* container 2: starting-info */
 .container-2{
     background: #393e46;
     height: 450px;
+    outline: 3px solid red;
 }
 
 .container-3{
