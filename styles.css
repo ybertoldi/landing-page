@@ -1,50 +1,16 @@
 body{
-    font-family: "Monaco", monospace;
-    height: 2000px;
-    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    display: flexbox;
     flex-direction: column;
-    justify-content: space-between;
 }
 
-a {
-    color: white;
+a, li{
+    list-style-type: none;
     text-decoration: none;
 }
 
-.header{
-    background: rgb(37, 35, 49);
-    flex: 0.2;
-
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 4px;
-
-    color: white
-}
-
-.starting-container{
-    flex: 4;
-    background: white;
-}
-
-.info-container{
-    flex: 4;
-    background-color: white;
-}
-
-.quote{
-    flex: 4;
-    background: gray;
-
-}
-
-.action{
-    flex: 4;
-}
-
-.footer{
-    flex: 0.5;
-    background: rgb(37, 35, 49);
-}
 
