@@ -40,6 +40,21 @@ a, li{
     margin-left: 8px;
 }
 
+/* good looking button */
+
+.pill{
+    font-size: 12px;
+    padding: 05.em 1em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    background: #0092ca ;
+    width: 100px;
+    height: 40px;
+    margin-top: 2%;
+}
 
 
 /* container 2: starting-info */
@@ -47,8 +62,45 @@ a, li{
     background: #393e46;
     height: 450px;
     outline: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
 }
 
+.starting-content{
+    outline: 3px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.starting-content > *{
+    outline: 2px solid blue;
+    height: 60%;
+    flex: 1;
+}
+
+.starting-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.starting-text-box .big{
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+
+.starting-text-box .small{
+    color: #ffffffe3;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+
+
+/* container 3: random-info */
 .container-3{
     background: #ffffff;
     height: 450px;
